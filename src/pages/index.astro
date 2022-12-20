@@ -1,5 +1,29 @@
+<<<<<<< HEAD
 <script is:inline>
 	// Redirect your homepage to the first page of documentation.
 	// If you have a landing page, remove this script and add it here!
 	window.location.pathname = `/en/introduction`;
 </script>
+=======
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>🧑‍🚀 Hello, Astronauts!</h1>
+      <p>Welcome to the blog. Have a great day!</p>
+    </main>
+    <Footer />
+  </body>
+</html>
+>>>>>>> 66a82547b8997eae2a85eb5893fe14fda8e4bf34

@@ -4,6 +4,7 @@ export const SITE = {
 	defaultLanguage: 'en_US',
 };
 
+<<<<<<< HEAD
 export const OPEN_GRAPH = {
 	image: {
 		src: 'https://github.com/withastro/astro/blob/main/assets/social/banner-minimal.png?raw=true',
@@ -55,3 +56,7 @@ export const SIDEBAR: Sidebar = {
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},
 };
+=======
+export const SITE_TITLE = 'phocks[...].onion';
+export const SITE_DESCRIPTION = 'Yet another blog by phocks but this time on the Tor network';
+>>>>>>> 66a82547b8997eae2a85eb5893fe14fda8e4bf34
